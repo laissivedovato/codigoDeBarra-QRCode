@@ -20,3 +20,5 @@ for produto in codigo_produtos:
   codigo = codigo_produtos[produto]
   codigo_barra = EAN13(codigo, writer=ImageWriter())
   codigo_barra.save(f"codigo_barra_{produto}")
+
+
